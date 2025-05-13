@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Frostsa - Inicio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: white;
+      color: #00293C;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+      min-height: 100vh;
+    }
+    img {
+      width: 96px;
+      height: auto;
+    }
+    h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      margin-top: 1rem;
+    }
+    p {
+      max-width: 600px;
+      text-align: center;
+      font-size: 1.125rem;
+      color: #555;
+    }
+    a.boton {
+      background-color: #FFD700;
+      color: #00293C;
+      padding: 0.75rem 1.5rem;
+      border-radius: 9999px;
+      font-weight: 600;
+      text-decoration: none;
+      margin-top: 1.5rem;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      transition: background-color 0.3s ease;
+    }
+    a.boton:hover {
+      background-color: #e6c200;
+    }
+    footer {
+      margin-top: 4rem;
+      font-size: 0.875rem;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <h1>Bienvenido a Frostsa</h1>
+  <p>
+    Especialistas en soluciones de refrigeración y climatización. Calidad, eficiencia y tecnología a tu servicio.
+  </p>
+  <a href="#contacto" class="boton">Contáctanos</a>
+
+  <footer>
+    © 2025 Frostsa. Todos los derechos reservados.
+  </footer>
+</body>
+</html>
